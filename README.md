@@ -33,6 +33,9 @@ Note it grows indefinitely, so I killed the process shortly after starting it to
    NEXT_TURBOPACK_TRACING=1 npx next dev --turbopack
    ```
 
+   ![100% cpu usage](https://github.com/user-attachments/assets/1a6b73e2-392e-42d1-853e-d1b8b5a3b808)
+
+
 ## Debugging
 
 I tried starting the server inside a debugger. The best I can tell the worker is idle while native code is stuck in a loop:
