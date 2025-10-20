@@ -4,7 +4,8 @@ If a module dynamically imports another module, which in turn dynamically import
 
 My best minimal reproduction is in `app/page.tsx`, where a single library entrypoint import causes the loop.
 
-I also attached the trace-turbopack file. Note it grows indefinitely, so I killed the process shortly after starting it to make the file uploadable to GitHub.
+I also attached the trace-turbopack file: https://github.com/user-attachments/files/23006283/trace-turbopack.zip.
+Note it grows indefinitely, so I killed the process shortly after starting it to make the file uploadable to GitHub.
 
 ## Reproduction
 
